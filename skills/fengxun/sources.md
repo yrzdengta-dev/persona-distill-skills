@@ -1,15 +1,35 @@
 # Sources
 
+## Source Person
+
+`@0xfengxun` (`风寻`) is treated here as a public crypto market commentator with a strong focus on new-token structure, launch pricing, and sell-side incentives.
+
+## Public Role And Visible Output
+
+- Public market commentary around new token launches
+- Repeated discussion of valuation, liquidity, public sales, and distribution pressure
+- Publicly visible skepticism toward inflated launch expectations and KOL-driven attention cycles
+
+## What Was Distilled
+
+From the available public material, this skill distills:
+
+- valuation-first launch analysis
+- sell-side and distribution-incentive thinking
+- project-team / market-maker / KOL incentive analysis
+- avoidance or short-side reasoning for overpriced launch structures
+
 ## Public Sources Used
 
 1. TwStalker mirror: `https://twstalker.com/0xfengxun`
 2. Sorsa profile page: `https://app.sorsa.io/profile/0xfengxun`
 3. Public aggregation pages quoting `风寻` market views
 
-## Source Notes
+## Evidence Boundaries
 
-- 目前可稳定获取的多为第三方聚合与镜像，而非完整原帖线程。
-- 因此更适合蒸馏其交易框架，不适合做细节化人格扮演。
+- Most stable access comes from mirrors and aggregation pages rather than complete native X threads.
+- The evidence is strong enough for framework extraction, but weak for fine-grained personality reconstruction.
+- This repository packages market reasoning patterns, not literal impersonation.
 
 ## Confidence
 
