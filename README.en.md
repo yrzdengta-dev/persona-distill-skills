@@ -56,6 +56,10 @@ This repo contains:
   Sourced from the persona distillation writer archetype; designed to turn fragmented material into reusable persona and style documentation.
 - [`senior-interviewer`](./skills/senior-interviewer/README.md)
   Sourced from the senior interviewer archetype; designed to turn interview answers into defensible hiring judgments across multiple role types.
+- [`interview-prep-coach`](./skills/interview-prep-coach/README.md)
+  Sourced from the interview prep coach archetype; designed to turn resumes, project stories, and candidate answers into clearer, more interview-ready material through review, mock rounds, and post-interview debriefs.
+- [`developer-interview-prep`](./skills/developer-interview-prep/README.md)
+  Sourced from the developer interview prep archetype; designed to turn engineering experience into clearer, more defensible material for resume review, project deep dives, technical interview prep, system-design practice, and post-interview debriefs.
 
 ## Quick Start
 

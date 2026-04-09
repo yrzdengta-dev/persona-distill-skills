@@ -74,6 +74,12 @@
 - [`senior-interviewer`](./skills/senior-interviewer/README.md)  
   来源是资深面试官 / hiring panel lead archetype；其核心价值是把候选人回答压缩成可辩护的 hiring decision。提炼出面试设计、信号提取、风险判断和录用建议。
 
+- [`interview-prep-coach`](./skills/interview-prep-coach/README.md)  
+  来源是候选人面试教练 archetype；其核心价值是把简历、项目经历和面试回答整理成更适合求职表达的结构。提炼出简历诊断、岗位匹配分析、模拟面试、行为面优化和面后复盘。
+
+- [`developer-interview-prep`](./skills/developer-interview-prep/README.md)  
+  来源是开发岗面试教练 archetype；其核心价值是把开发经历整理成更能经受技术追问的表达结构。提炼出开发岗简历诊断、项目深挖准备、技术面模拟、系统设计准备和面后复盘。
+
 ## 仓库结构
 
 ```text
