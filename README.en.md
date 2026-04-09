@@ -24,27 +24,27 @@ This repo contains:
 ### Perspective
 
 - [`wallstreet0name`](./skills/wallstreet0name/README.md)
-  Sourced from public market voice `@WallStreet0Name`, whose visible output centers on structure, timing, and discipline commentary. Built from `2` public source channels and `4` evidence categories, distilled into `4` core modules: multi-timeframe structure, waiting for high-quality locations, trading discipline, and low-quality trade filtering.
+  Derived from the public market commentary of `@WallStreet0Name`, with emphasis on multi-timeframe structure, waiting for high-quality locations, trading discipline, and low-quality trade filtering.
 - [`fengxun`](./skills/fengxun/README.md)
-  Sourced from public market commentator `@0xfengxun`, whose visible output centers on public sales, launch structure, liquidity, and distribution pressure. Built from `3` public source channels and `4` evidence categories, distilled into `4` core modules: valuation, liquidity distribution, launch risk, and short / avoid logic.
+  Derived from the public market commentary of `@0xfengxun`, with emphasis on valuation logic, liquidity distribution, launch risk, and short / avoid reasoning for new tokens.
 - [`ict`](./skills/ict/README.md)
-  Sourced from public trading educator ICT / Michael J. Huddleston, known for the widely cited ICT / SMC framework. Built from `3` public source channels and `5` evidence categories, distilled into `5` core modules: HTF premise, liquidity, PD Array, AMD/Judas/displacement, and session timing.
+  Derived from the public teaching framework of ICT / Michael J. Huddleston, with emphasis on HTF premise, liquidity, PD Array, AMD/Judas/displacement, and session timing.
 - [`17zxhold`](./skills/17zxhold/README.md)
-  Sourced from public short-term trader `@17zxhold`, whose visible output centers on key levels, breakout confirmation, stop loss, and break-even protection. Built from `2` public source channels and `4` evidence categories, distilled into `5` core modules: alt execution, key levels, breakout confirmation, stop loss, and break-even stop logic.
+  Derived from the public short-term trading commentary of `@17zxhold`, with emphasis on altcoin execution, key levels, breakout confirmation, stop loss, and break-even protection.
 - [`liangxi`](./skills/liangxi/README.md)
-  Sourced from public trader voice Liangxi (`凉兮大元帅`), whose visible output centers on leverage, liquidation paths, exchange behavior, and event-driven extreme moves. Built from `3` public source channels and `4` evidence categories, distilled into `5` core modules: opponent-positioning analysis, extreme-window filtering, liquidation-path reasoning, event-driven strike logic, and sharp bounded response style.
+  Derived from the public trading commentary associated with Liangxi (`凉兮大元帅`), with emphasis on opponent-positioning analysis, extreme-window filtering, liquidation-path reasoning, event-driven execution, and sharp response style.
 - [`byzantine-general`](./skills/byzantine-general/README.md)
-  Sourced from public trader voice `Byzantine General`, whose visible output centers on structure, crowding, confirmation, and invalidation in major crypto assets. Built from `3` public source channels and `4` evidence categories, distilled into `5` core modules: structure-first reading, crowding-aware filtering, confirmation logic, invalidation-led execution, and disciplined major-asset trading.
+  Derived from the public trading commentary of `Byzantine General`, with emphasis on structure-first reading, crowding-aware filtering, confirmation logic, invalidation-led execution, and disciplined major-asset trading.
 - [`daan-crypto-trades`](./skills/daan-crypto-trades/README.md)
-  Sourced from public trader voice `Daan Crypto Trades`, whose visible output centers on ranges, key levels, retests, and objective invalidations. Built from `3` public source channels and `4` evidence categories, distilled into `5` core modules: range identification, key-level execution, breakout/retest logic, gap-aware framing, and invalidation-based risk control.
+  Derived from the public chart commentary of `Daan Crypto Trades`, with emphasis on range identification, key-level execution, retest logic, gap-aware framing, and invalidation-based risk control.
 - [`donalt`](./skills/donalt/README.md)
-  Sourced from public trader voice `DonAlt`, whose visible output centers on high-timeframe location quality, patience, retests, and opportunity cost. Built from `3` public source channels and `4` evidence categories, distilled into `5` core modules: HTF-first framing, location-quality filtering, retest patience, opportunity-cost discipline, and low-frequency high-quality execution.
+  Derived from the public trading commentary of `DonAlt`, with emphasis on HTF-first framing, location-quality filtering, retest patience, opportunity-cost discipline, and low-frequency execution.
 - [`credible-crypto`](./skills/credible-crypto/README.md)
-  Sourced from public trader voice `CrediBULL Crypto`, whose visible output centers on trend theses, corrections, invalidation, and disciplined holding. Built from `3` public source channels and `4` evidence categories, distilled into `5` core modules: trend/correction separation, HTF thesis framing, invalidation-based action, hold/exit discipline, and conviction with structure.
+  Derived from the public market commentary of `CrediBULL Crypto`, with emphasis on trend/correction separation, HTF thesis framing, invalidation-based action, and structured hold / exit logic.
 - [`arthur-hayes`](./skills/arthur-hayes/README.md)
-  Sourced from public market voice `Arthur Hayes`, whose visible output centers on liquidity, policy paths, BTC-led regime shifts, and beta rotation across crypto cycles. Built from `3` public source channels and `4` evidence categories, distilled into `5` core modules: liquidity-first regime analysis, policy interpretation, BTC-led cycle mapping, beta-rotation thinking, and macro-to-crypto transmission logic.
+  Derived from the public macro market commentary of `Arthur Hayes`, with emphasis on liquidity-first regime analysis, policy interpretation, BTC-led cycle mapping, beta rotation, and macro-to-crypto transmission logic.
 - [`ansem`](./skills/ansem/README.md)
-  Sourced from public trader voice `Ansem`, whose visible output centers on attention flow, narrative spread, product mindshare, and high-beta market behavior. Built from `3` public source channels and `4` evidence categories, distilled into `5` core modules: attention-scarcity framing, narrative-stage analysis, product-mindshare reasoning, beta-spillover mapping, and crowded-consensus filtering.
+  Derived from the public market commentary of `Ansem`, with emphasis on attention-scarcity framing, narrative-stage analysis, product-mindshare reasoning, beta spillovers, and crowded-consensus filtering.
 
 ### Workflow
 
