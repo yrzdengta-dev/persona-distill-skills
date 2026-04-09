@@ -3,6 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](./LICENSE)
 [![Codex-compatible](https://img.shields.io/badge/Codex-compatible-blue)](./README.md#install-into-codex)
 
+[中文](./README.md)
+
 An open-source repository of local skills for persona distillation, perspective-driven analysis, and structured workflow roles.
 
 ## Scope
@@ -56,6 +58,7 @@ bash scripts/install-skill.sh ict
 skills/<skill-name>/
 ├─ SKILL.md
 ├─ README.md
+├─ README.en.md
 ├─ examples.md
 ├─ examples.en.md
 ├─ persona-card.md   # optional

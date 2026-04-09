@@ -22,6 +22,7 @@ if (skillNames.length === 0) {
 for (const name of skillNames) {
   const skillFile = path.join(skillsDir, name, "SKILL.md");
   const readmeFile = path.join(skillsDir, name, "README.md");
+  const readmeEnFile = path.join(skillsDir, name, "README.en.md");
   const examplesZhFile = path.join(skillsDir, name, "examples.md");
   const examplesEnFile = path.join(skillsDir, name, "examples.en.md");
   if (!fs.existsSync(skillFile)) {
@@ -30,6 +31,10 @@ for (const name of skillNames) {
   }
   if (!fs.existsSync(readmeFile)) {
     console.error(`Missing README.md for ${name}`);
+    process.exit(1);
+  }
+  if (!fs.existsSync(readmeEnFile)) {
+    console.error(`Missing README.en.md for ${name}`);
     process.exit(1);
   }
   if (!fs.existsSync(examplesZhFile)) {

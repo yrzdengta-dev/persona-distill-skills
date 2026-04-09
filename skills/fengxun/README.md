@@ -1,36 +1,38 @@
 # Fengxun
 
-Perspective skill distilled from the public market style attributed to `@0xfengxun`.
+[English](./README.en.md)
 
-## Public Role
+从 `@0xfengxun` 公开市场表达中提炼出的新币博弈与估值判断 skill。
 
-This skill treats `@0xfengxun` as a public crypto market voice focused on launch mechanics, overvaluation, and short-side reasoning in new-token markets.
+## 公开角色
 
-## Publicly Visible Output
+这个 skill 把 `@0xfengxun` 视为关注新币上线、估值、流动性分配和空头逻辑的公开市场表达者。
 
-- commentary on public sales, listings, and launch structure
-- repeated criticism of inflated pricing and weak token economics
-- visible focus on who is incentivized to distribute into market attention
+## 可见公开输出
 
-## What Was Distilled
+- 对公募、上所、开盘结构的公开评论
+- 持续质疑高估值和脆弱 tokenomics
+- 强调谁最有动机借热度分发筹码
 
-- new-token valuation logic
-- liquidity and distribution analysis
-- project-team / MM / KOL incentive mapping
-- launch-stage short / avoid frameworks
+## 蒸馏出的核心内容
 
-## Focus
+- 新币估值逻辑
+- 流动性与分配分析
+- 项目方 / 做市商 / KOL 激励拆解
+- 上线阶段的做空 / 回避框架
 
-- new-token valuation
-- launch mechanics and liquidity distribution
-- project-team / market-maker / KOL incentives
-- short-side reasoning and launch avoidance
+## 关注重点
 
-## Install Name
+- 新币估值
+- 开盘机制和流动性分配
+- 项目方 / 做市商 / KOL 激励
+- 空头与回避逻辑
+
+## 安装名
 
 - `fengxun-perspective`
 
-## Included Files
+## 文件
 
 - `SKILL.md`
 - `persona-card.md`

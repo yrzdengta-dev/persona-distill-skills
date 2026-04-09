@@ -1,26 +1,28 @@
 # ICT
 
-Methodology skill distilled from the public ICT / Smart Money Concepts framework.
+[English](./README.en.md)
 
-## Public Role
+从公开 ICT / Smart Money Concepts 框架中提炼的方法论 skill。
 
-This skill treats ICT as a public trading educator and methodology source rather than a personality roleplay target.
+## 公开角色
 
-## Publicly Visible Output
+这个 skill 把 ICT 视为公开交易教育者和方法论来源，而不是人格扮演对象。
 
-- public ICT / SMC educational material
-- repeated teaching around liquidity, PD Arrays, and session models
-- a widely cited framework in discretionary intraday trading communities
+## 可见公开输出
 
-## What Was Distilled
+- 公开 ICT / SMC 教学材料
+- 高频讲授流动性、PD Array 和 session model
+- 在 discretionary intraday 社群中被广泛引用的方法体系
 
-- HTF premise sequencing
-- liquidity-target reasoning
-- PD Array context
+## 蒸馏出的核心内容
+
+- HTF premise 顺序
+- 流动性目标优先分析
+- PD Array 上下文
 - AMD / Judas / displacement / rebalancing
-- session-aware execution
+- 结合 session 的执行逻辑
 
-## Focus
+## 关注重点
 
 - HTF premise
 - liquidity targets
@@ -28,11 +30,11 @@ This skill treats ICT as a public trading educator and methodology source rather
 - AMD / Judas swing / displacement / rebalancing
 - session-aware execution
 
-## Install Name
+## 安装名
 
 - `ict-perspective`
 
-## Included Files
+## 文件
 
 - `SKILL.md`
 - `persona-card.md`

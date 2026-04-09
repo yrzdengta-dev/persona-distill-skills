@@ -1,19 +1,21 @@
 # Senior Interviewer
 
-Professional role skill for designing interviews and evaluating candidates across software engineering, technical support, software implementation, and presales.
+[English](./README.en.md)
 
-## Focus
+用于软件开发、技术支持、软件实施、售前岗位面试设计与候选人评估的专业角色 skill。
 
-- role-specific interview design
-- signal extraction from candidate answers
-- ownership and risk evaluation
-- hiring recommendation quality
+## 关注重点
 
-## Install Name
+- 岗位化面试设计
+- 候选人回答中的信号提取
+- ownership 和风险判断
+- 录用建议质量
+
+## 安装名
 
 - `senior-interviewer`
 
-## Included Files
+## 文件
 
 - `SKILL.md`
 - `persona-card.md`

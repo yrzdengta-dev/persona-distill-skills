@@ -1,19 +1,21 @@
 # Founder Advisor
 
-Workflow skill for founder-style product judgment and execution tradeoffs.
+[English](./README.en.md)
 
-## Focus
+用于创始人式产品判断和执行取舍的工作流 skill。
 
-- identifying the narrowest viable wedge
-- separating demand from vanity
-- choosing what not to build
-- turning product ambition into execution sequence
+## 关注重点
 
-## Install Name
+- 找到最窄可行切入点
+- 区分真实需求和虚荣需求
+- 明确哪些东西不该做
+- 把产品野心转成可执行顺序
+
+## 安装名
 
 - `founder-advisor`
 
-## Included Files
+## 文件
 
 - `SKILL.md`
 - `examples.md` / `examples.en.md`

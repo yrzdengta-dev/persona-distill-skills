@@ -1,20 +1,22 @@
 # Product Clarifier
 
-Workflow skill for turning vague product requests into structured requirements, risks, and acceptance criteria.
+[English](./README.en.md)
 
-## Focus
+用于把模糊产品需求整理成结构化需求、风险和验收标准的工作流 skill。
 
-- requirement expansion
-- hidden assumptions
-- boundary conditions
-- risk and failure modes
-- actionable acceptance criteria
+## 关注重点
 
-## Install Name
+- 需求展开
+- 隐藏假设
+- 边界条件
+- 风险和失败模式
+- 可执行验收标准
+
+## 安装名
 
 - `product-clarifier`
 
-## Included Files
+## 文件
 
 - `SKILL.md`
 - `examples.md` / `examples.en.md`
