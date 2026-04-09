@@ -21,16 +21,24 @@ This repo contains:
 ### Perspective
 
 - [`wallstreet0name`](./skills/wallstreet0name/README.md)
+  Sourced from public market voice `@WallStreet0Name`, whose visible output centers on structure, timing, and discipline commentary. Built from `2` public source channels and `4` evidence categories, distilled into `4` core modules: multi-timeframe structure, waiting for high-quality locations, trading discipline, and low-quality trade filtering.
 - [`fengxun`](./skills/fengxun/README.md)
+  Sourced from public market commentator `@0xfengxun`, whose visible output centers on public sales, launch structure, liquidity, and distribution pressure. Built from `3` public source channels and `4` evidence categories, distilled into `4` core modules: valuation, liquidity distribution, launch risk, and short / avoid logic.
 - [`ict`](./skills/ict/README.md)
+  Sourced from public trading educator ICT / Michael J. Huddleston, known for the widely cited ICT / SMC framework. Built from `3` public source channels and `5` evidence categories, distilled into `5` core modules: HTF premise, liquidity, PD Array, AMD/Judas/displacement, and session timing.
 - [`17zxhold`](./skills/17zxhold/README.md)
+  Sourced from public short-term trader `@17zxhold`, whose visible output centers on key levels, breakout confirmation, stop loss, and break-even protection. Built from `2` public source channels and `4` evidence categories, distilled into `5` core modules: alt execution, key levels, breakout confirmation, stop loss, and break-even stop logic.
 
 ### Workflow
 
 - [`founder-advisor`](./skills/founder-advisor/README.md)
+  Sourced from the founder archetype; designed to compress product ambition into executable focus, wedge selection, and clear non-goals.
 - [`product-clarifier`](./skills/product-clarifier/README.md)
+  Sourced from the product clarification archetype; designed to turn vague requests into actionable requirements, boundaries, risks, and acceptance criteria.
 - [`persona-distill-writer`](./skills/persona-distill-writer/README.md)
+  Sourced from the persona distillation writer archetype; designed to turn fragmented material into reusable persona and style documentation.
 - [`senior-interviewer`](./skills/senior-interviewer/README.md)
+  Sourced from the senior interviewer archetype; designed to turn interview answers into defensible hiring judgments across multiple role types.
 
 ## Quick Start
 

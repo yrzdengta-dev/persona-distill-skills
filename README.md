@@ -27,30 +27,30 @@
 ### 人物与视角类
 
 - [`wallstreet0name`](./skills/wallstreet0name/README.md)  
-  多周期结构、等待高质量位置、交易纪律。
+  该人物是公开交易表达者 `@WallStreet0Name`。其出色成果是持续输出围绕结构、时机、纪律的市场评论与高流动性标的观察。本 skill 蒸馏出了他的多周期结构、等待高质量位置、交易纪律和低质量机会过滤框架。
 
 - [`fengxun`](./skills/fengxun/README.md)  
-  新币估值、流动性分配、开盘风险与空头逻辑。
+  该人物是公开市场表达者 `@0xfengxun`。其出色成果是持续输出围绕公募、开盘、流动性和出货动机的新币评论。本 skill 蒸馏出了他的新币估值、流动性分配、开盘风险和空头 / 回避逻辑。
 
 - [`ict`](./skills/ict/README.md)  
-  ICT / SMC 框架，强调 HTF premise、liquidity、PD Array、session timing。
+  该人物是公开交易教育者 ICT / Michael J. Huddleston。其出色成果是形成并传播了被广泛引用的 ICT / SMC 教学体系。本 skill 蒸馏出了他的 HTF premise、liquidity、PD Array、AMD/Judas/displacement 和 session timing 框架。
 
 - [`17zxhold`](./skills/17zxhold/README.md)  
-  山寨短线执行、关键位置、真突破、止损与保本损。
+  该人物是公开短线交易者 `@17zxhold`。其出色成果是持续分享围绕关键位置、真突破、止损与保本损的短线执行表达。本 skill 蒸馏出了他的山寨短线执行、关键位置、真突破判断、止损和保本损框架。
 
 ### 工作流类
 
 - [`founder-advisor`](./skills/founder-advisor/README.md)  
-  创始人视角的方向判断与执行取舍。
+  来源是创始人 archetype；其核心价值是把抽象产品野心收敛成可执行路径。提炼出方向判断、切入点收缩、真实需求识别和不做项管理。
 
 - [`product-clarifier`](./skills/product-clarifier/README.md)  
-  将模糊需求拆成结构化需求与风险。
+  来源是产品澄清 archetype；其核心价值是把一句话需求转成可讨论、可实现、可验证的规格说明。提炼出需求展开、边界条件、风险识别和验收标准。
 
 - [`persona-distill-writer`](./skills/persona-distill-writer/README.md)  
-  把零散资料整理成稳定的人物 / 风格画像。
+  来源是 persona distillation writer archetype；其核心价值是把碎片材料变成稳定可复用的人物文档。提炼出风格模式、事实 / 推断分离和判断框架整理。
 
 - [`senior-interviewer`](./skills/senior-interviewer/README.md)  
-  面向软件开发、技术支持、实施、售前岗位的资深面试官 skill。
+  来源是资深面试官 / hiring panel lead archetype；其核心价值是把候选人回答压缩成可辩护的 hiring decision。提炼出面试设计、信号提取、风险判断和录用建议。
 
 ## 仓库结构
 
@@ -149,4 +149,4 @@ npm run install:codex
 
 ## 贡献
 
-见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+见 [CONTRIBUTING.md](./CONTRIBUTING.md).

@@ -17,12 +17,23 @@ Thanks for contributing.
 
 ## Persona / Perspective README Standard
 
-For every persona or perspective skill, write the human-facing `README.md` using this structure:
+For every persona or perspective skill, write the human-facing introduction using this fixed structure:
 
-1. `人物介绍`
-2. `公开成果与可见输出`
-3. `蒸馏过程中采集了什么`
-4. `提炼出了什么`
+1. `介绍该人物`
+2. `有什么出色成果`
+3. `本 skill 蒸馏出了它什么东西`
+
+For example:
+
+- `该人物是……`
+- `其出色成果是……`
+- `本 skill 蒸馏出了他的……框架`
+
+For workflow or archetype skills, replace the person with a source role or source archetype, but keep the same first two sections:
+
+1. `介绍该来源角色`
+2. `有什么核心价值 / 成果`
+3. `本 skill 蒸馏出了什么能力`
 
 Each of these sections should be quantified whenever possible.
 
