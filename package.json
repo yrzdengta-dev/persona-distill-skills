@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "validate": "node scripts/validate-skills.mjs",
-    "install:codex": "bash scripts/install-skill.sh all"
+    "install:codex": "bash scripts/install-skill.sh all",
+    "install:claude": "INSTALL_TARGET=claude bash scripts/install-skill.sh all"
   }
 }

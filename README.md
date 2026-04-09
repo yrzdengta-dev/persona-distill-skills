@@ -3,12 +3,13 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](./LICENSE)
 [![Validate Skills](https://img.shields.io/badge/validation-local%20and%20CI-green)](./.github/workflows/validate.yml)
 [![Codex Skills](https://img.shields.io/badge/Codex-compatible-blue)](#安装到-codex)
+[![Claude Skills](https://img.shields.io/badge/Claude-compatible-blue)](#安装到-claude)
 
 [English](./README.en.md)
 
 用于 persona 蒸馏、视角提炼和专业工作流角色封装的本地 skill 仓库。
 
-本仓库提供可安装到 `~/.codex/skills/` 的本地 skill，可在 Codex 中作为可触发能力使用。
+本仓库提供可安装到 `~/.codex/skills/` 或 `~/.claude/skills/` 的本地 skill，可在 Codex 与 Claude Code 中作为可触发能力使用。
 
 ## 仓库定位
 
@@ -17,7 +18,7 @@
 - `人物与视角类 skills`
 - `方法论类 skills`
 - `工作流类 skills`
-- `兼容 Codex 的 SKILL.md 文档`
+- `兼容 Codex / Claude Code 的 SKILL.md 文档`
 - `辅助研究文档`，如 persona card、sources、examples
 
 这不是一个提示词堆积仓库，也不是纯角色扮演集合。目标是提炼稳定框架、明确边界和可复用的判断流程。
@@ -140,6 +141,34 @@ npm run validate
 
 ```bash
 npm run install:codex
+```
+
+## 安装到 Claude
+
+Claude Code 官方也支持 `SKILL.md` 目录式 skills，安装位置为 `~/.claude/skills/`。
+
+安装全部 skills：
+
+```bash
+npm run install:claude
+```
+
+安装单个 skill：
+
+```bash
+INSTALL_TARGET=claude bash scripts/install-skill.sh ict
+```
+
+安装多个 skill：
+
+```bash
+INSTALL_TARGET=claude bash scripts/install-skill.sh ict fengxun liangxi
+```
+
+安装脚本会读取每个 `SKILL.md` 中的 `name:` 字段，并复制到：
+
+```text
+~/.claude/skills/<frontmatter-name>/SKILL.md
 ```
 
 ## 设计原则

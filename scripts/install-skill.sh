@@ -3,7 +3,21 @@ set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 SKILLS_DIR="$ROOT_DIR/skills"
-TARGET_ROOT="${HOME}/.codex/skills"
+INSTALL_TARGET="${INSTALL_TARGET:-codex}"
+
+case "$INSTALL_TARGET" in
+  codex)
+    TARGET_ROOT="${HOME}/.codex/skills"
+    ;;
+  claude)
+    TARGET_ROOT="${HOME}/.claude/skills"
+    ;;
+  *)
+    echo "Unknown INSTALL_TARGET: $INSTALL_TARGET" >&2
+    echo "Expected one of: codex, claude" >&2
+    exit 1
+    ;;
+esac
 
 usage() {
   cat <<'EOF'
@@ -11,10 +25,14 @@ Usage:
   bash scripts/install-skill.sh all
   bash scripts/install-skill.sh <skill-folder> [<skill-folder> ...]
 
+Environment:
+  INSTALL_TARGET=codex|claude  # default: codex
+
 Examples:
   bash scripts/install-skill.sh all
   bash scripts/install-skill.sh ict
   bash scripts/install-skill.sh fengxun senior-interviewer
+  INSTALL_TARGET=claude bash scripts/install-skill.sh all
 EOF
 }
 

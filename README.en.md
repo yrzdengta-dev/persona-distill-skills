@@ -2,10 +2,13 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](./LICENSE)
 [![Codex-compatible](https://img.shields.io/badge/Codex-compatible-blue)](./README.md#install-into-codex)
+[![Claude-compatible](https://img.shields.io/badge/Claude-compatible-blue)](./README.md#安装到-claude)
 
 [中文](./README.md)
 
 An open-source repository of local skills for persona distillation, perspective-driven analysis, and structured workflow roles.
+
+These skills can be installed into either Codex (`~/.codex/skills/`) or Claude Code (`~/.claude/skills/`), since both tools support directory-based `SKILL.md` skills.
 
 ## Scope
 
@@ -54,6 +57,18 @@ Install all skills into Codex:
 
 ```bash
 npm run install:codex
+```
+
+Install all skills into Claude Code:
+
+```bash
+npm run install:claude
+```
+
+Install a single skill into Claude Code:
+
+```bash
+INSTALL_TARGET=claude bash scripts/install-skill.sh ict
 ```
 
 Install a single skill:
