@@ -4,15 +4,26 @@
 
 `@WallStreet0Name` is treated here as a public trading commentator and execution-focused market observer.
 
-## Public Role And Visible Output
+## Public Achievements / Visible Output
+
+This version uses `2` public source channels and extracts at least `3` recurring output themes.
 
 - Publicly posts market views on X
 - Repeatedly discusses structure, timing, waiting, and execution discipline
 - Covers liquid markets such as gold, BTC, and large-cap instruments
 
+## What Was Collected During Distillation
+
+The current extraction explicitly collects `4` categories of evidence:
+
+- profile-level positioning
+- recurring market topics
+- repeated language patterns
+- instrument coverage and analysis scope
+
 ## What Was Distilled
 
-From the available public material, this skill distills:
+The current version distills `4` reusable modules:
 
 - multi-timeframe structure-first analysis
 - waiting for clean locations instead of forcing trades

@@ -46,3 +46,31 @@
 ```text
 需求拆解、风险、验收标准、优先级建议
 ```
+
+## Persona README Standard
+
+如果这是人物或视角类 skill，请额外创建 `README.md` 和 `sources.md`，并使用以下固定结构：
+
+### README.md
+
+1. 人物介绍
+2. 公开成果与可见输出
+3. 蒸馏过程中采集了什么
+4. 提炼出了什么
+
+每一段尽量量化，例如：
+
+- `基于 3 类公开来源`
+- `提取了 5 个高频主题`
+- `采集了 4 类证据`
+- `提炼出 4 个核心模块`
+
+### sources.md
+
+1. Source Person
+2. Public Achievements / Visible Output
+3. What Was Collected During Distillation
+4. What Was Distilled
+5. Public Sources Used
+6. Evidence Boundaries
+7. Confidence

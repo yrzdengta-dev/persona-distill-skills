@@ -4,15 +4,27 @@
 
 `ICT` refers to `Inner Circle Trader`, the public trading educator identity of `Michael J. Huddleston`.
 
-## Public Role And Visible Output
+## Public Achievements / Visible Output
+
+This version uses `3` public source channels and extracts at least `5` recurring teaching themes.
 
 - Public educator around Smart Money Concepts
 - Well-known for teaching liquidity, PD Arrays, session timing, and execution models
 - Source identity commonly cited in online ICT / SMC trading communities
 
+## What Was Collected During Distillation
+
+The current extraction explicitly collects `5` categories of evidence:
+
+- public methodology positioning
+- core concept set
+- session and timing rules
+- execution sequencing
+- repeatedly cited community framework elements
+
 ## What Was Distilled
 
-From public educational material, this skill distills:
+The current version distills `5` reusable modules:
 
 - HTF premise first
 - liquidity-target-first analysis
