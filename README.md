@@ -42,6 +42,24 @@
 - [`liangxi`](./skills/liangxi/README.md)  
   该人物是公开高波动合约交易表达者凉兮（凉兮大元帅）。其出色成果是持续输出围绕爆仓、插针、交易所路径、事件驱动和拥挤仓位的强观点评论。本 skill 蒸馏出了他的对手盘视角、极端行情筛选、清算路径判断、事件驱动出手和强语气表达框架。
 
+- [`byzantine-general`](./skills/byzantine-general/README.md)  
+  该人物是公开主流币交易表达者 `Byzantine General`。其出色成果是持续输出围绕结构、仓位拥挤度、确认与 invalidation 的市场评论。本 skill 蒸馏出了他的结构优先、仓位过滤、等待确认、失效边界和执行纪律框架。
+
+- [`daan-crypto-trades`](./skills/daan-crypto-trades/README.md)  
+  该人物是公开主流币交易表达者 `Daan Crypto Trades`。其出色成果是持续输出围绕 range、关键价位、回踩确认与 invalidation 的图表评论。本 skill 蒸馏出了他的区间识别、关键水平、回踩确认、gap 语境和失效边界框架。
+
+- [`donalt`](./skills/donalt/README.md)  
+  该人物是公开高周期 swing 交易表达者 `DonAlt`。其出色成果是持续输出围绕高周期位置、回踩、机会成本和等待的市场评论。本 skill 蒸馏出了他的高周期优先、边界位置、回踩确认、机会成本和低频高质量执行框架。
+
+- [`credible-crypto`](./skills/credible-crypto/README.md)  
+  该人物是公开趋势交易表达者 `CrediBULL Crypto`。其出色成果是持续输出围绕高时间框架 thesis、修正与失效边界的市场评论。本 skill 蒸馏出了他的趋势/修正分离、HTF thesis、invalidation、持有纪律和结构化认错框架。
+
+- [`arthur-hayes`](./skills/arthur-hayes/README.md)  
+  该人物是公开宏观市场表达者 `Arthur Hayes`。其出色成果是持续输出围绕流动性、政策路径、risk-on 和 crypto 周期传导的评论。本 skill 蒸馏出了他的流动性优先、制度变量、BTC 先行、beta 轮动和宏观到 crypto 传导框架。
+
+- [`ansem`](./skills/ansem/README.md)  
+  该人物是公开高 beta / 叙事交易表达者 `Ansem`。其出色成果是持续输出围绕注意力、产品心智、叙事扩散和市场外溢的评论。本 skill 蒸馏出了他的注意力稀缺、叙事阶段、产品心智、beta 外溢和拥挤共识过滤框架。
+
 ### 工作流类
 
 - [`founder-advisor`](./skills/founder-advisor/README.md)  
