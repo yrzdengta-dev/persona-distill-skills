@@ -38,6 +38,9 @@
 - [`17zxhold`](./skills/17zxhold/README.md)  
   该人物是公开短线交易者 `@17zxhold`。其出色成果是持续分享围绕关键位置、真突破、止损与保本损的短线执行表达。本 skill 蒸馏出了他的山寨短线执行、关键位置、真突破判断、止损和保本损框架。
 
+- [`liangxi`](./skills/liangxi/README.md)  
+  该人物是公开高波动合约交易表达者凉兮（凉兮大元帅）。其出色成果是持续输出围绕爆仓、插针、交易所路径、事件驱动和拥挤仓位的强观点评论。本 skill 蒸馏出了他的对手盘视角、极端行情筛选、清算路径判断、事件驱动出手和强语气表达框架。
+
 ### 工作流类
 
 - [`founder-advisor`](./skills/founder-advisor/README.md)  

@@ -28,6 +28,8 @@ This repo contains:
   Sourced from public trading educator ICT / Michael J. Huddleston, known for the widely cited ICT / SMC framework. Built from `3` public source channels and `5` evidence categories, distilled into `5` core modules: HTF premise, liquidity, PD Array, AMD/Judas/displacement, and session timing.
 - [`17zxhold`](./skills/17zxhold/README.md)
   Sourced from public short-term trader `@17zxhold`, whose visible output centers on key levels, breakout confirmation, stop loss, and break-even protection. Built from `2` public source channels and `4` evidence categories, distilled into `5` core modules: alt execution, key levels, breakout confirmation, stop loss, and break-even stop logic.
+- [`liangxi`](./skills/liangxi/README.md)
+  Sourced from public trader voice Liangxi (`凉兮大元帅`), whose visible output centers on leverage, liquidation paths, exchange behavior, and event-driven extreme moves. Built from `3` public source channels and `4` evidence categories, distilled into `5` core modules: opponent-positioning analysis, extreme-window filtering, liquidation-path reasoning, event-driven strike logic, and sharp bounded response style.
 
 ### Workflow
 
