@@ -5,6 +5,7 @@
   "description": "Local skill library for persona distillation and perspective-driven workflows.",
   "license": "MIT",
   "scripts": {
-    "validate": "node scripts/validate-skills.mjs"
+    "validate": "node scripts/validate-skills.mjs",
+    "install:codex": "bash scripts/install-skill.sh all"
   }
 }

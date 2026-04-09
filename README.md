@@ -1,50 +1,79 @@
 # Persona Distill Skills
 
-一个用于维护个人 persona / perspective / workflow skills 的 GitHub 仓库。
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](./LICENSE)
+[![Validate Skills](https://img.shields.io/badge/validation-local%20and%20CI-green)](./.github/workflows/validate.yml)
+[![Codex Skills](https://img.shields.io/badge/Codex-compatible-blue)](#install-into-codex)
 
-## Overview
+Opinionated local skill library for persona distillation, perspective-driven analysis, and professional workflow roles.
 
-这个仓库用于集中维护可复用的 skill，重点覆盖：
+This repository packages reusable skills that can be installed into `~/.codex/skills/` and used from Codex as local, triggerable capabilities.
 
-- 人物视角 skill
-- 方法论 skill
-- 产品与交易顾问类 skill
-- 本地可安装到 Codex / Claude Code 的 skill 文档
+English version: [README.en.md](./README.en.md)
+
+## What This Repo Is
+
+This is a repository of:
+
+- `perspective skills` for public figures, traders, and frameworks
+- `workflow skills` for structured tasks such as product analysis or interviewing
+- `Codex-compatible skill documents` centered around `SKILL.md`
+- `supporting research docs` such as persona cards, sources, and examples
+
+This is not a collection of raw prompts or roleplay scripts. The goal is to extract stable frameworks, explicit usage boundaries, and repeatable response patterns.
 
 ## Included Skills
 
 ### Perspective Skills
 
-- `wallstreet0name` - 多周期结构、交易纪律、等待高质量位置
-- `fengxun` - 新币估值、流动性分配、公募和做空逻辑
-- `ict` - ICT / SMC 分析框架，围绕 HTF premise、liquidity、PD Array、session timing
-- `17zxhold` - 山寨短线执行、关键位置、真突破、止损和保本损
+- [`wallstreet0name`](./skills/wallstreet0name/README.md)  
+  Multi-timeframe structure, waiting for high-quality locations, and trading discipline.
+
+- [`fengxun`](./skills/fengxun/README.md)  
+  New-token valuation, liquidity distribution, launch risk, and short-side reasoning.
+
+- [`ict`](./skills/ict/README.md)  
+  ICT / SMC framework for HTF premise, liquidity targets, PD Arrays, and session timing.
+
+- [`17zxhold`](./skills/17zxhold/README.md)  
+  Short-term alt / meme execution, confirmation, key levels, stop loss, and break-even stops.
 
 ### Workflow Skills
 
-- `founder-advisor` - 创始人视角的方向判断与执行取舍
-- `product-clarifier` - 将模糊需求拆成结构化需求
-- `persona-distill-writer` - 把人物资料整理成稳定的人格/风格描述
+- [`founder-advisor`](./skills/founder-advisor/README.md)  
+  Founder-style product judgment and execution tradeoffs.
+
+- [`product-clarifier`](./skills/product-clarifier/README.md)  
+  Turns fuzzy ideas into structured requirements and risks.
+
+- [`persona-distill-writer`](./skills/persona-distill-writer/README.md)  
+  Converts fragmented material into a stable persona or style description.
+
+- [`senior-interviewer`](./skills/senior-interviewer/README.md)  
+  Senior interviewer lens for software engineering, support, implementation, and presales roles.
 
 ## Repository Structure
 
 ```text
 persona-distill-skills/
 ├─ README.md
+├─ README.en.md
 ├─ CONTRIBUTING.md
 ├─ LICENSE
 ├─ .gitignore
 ├─ package.json
+├─ scripts/
+│  ├─ validate-skills.mjs
+│  └─ install-skill.sh
 ├─ skills/
 │  ├─ <skill-name>/
 │  │  ├─ SKILL.md
-│  │  ├─ persona-card.md
-│  │  ├─ sources.md
-│  │  └─ examples.md
+│  │  ├─ README.md
+│  │  ├─ examples.md
+│  │  ├─ examples.en.md
+│  │  ├─ persona-card.md        # optional
+│  │  └─ sources.md             # optional
 ├─ templates/
 │  └─ SKILL.template.md
-├─ scripts/
-│  └─ validate-skills.mjs
 └─ .github/
    └─ workflows/
       └─ validate.yml
@@ -52,37 +81,70 @@ persona-distill-skills/
 
 ## Skill Format
 
-每个 skill 建议至少包含：
+Each skill should include:
 
-- `SKILL.md` - 实际给客户端加载的 skill 说明
-- `persona-card.md` - 人物或方法论的结构化画像
-- `sources.md` - 公开来源和证据边界
-- `examples.md` - 触发示例和期望输出风格
+- `SKILL.md`  
+  The actual skill entry point used by Codex.
 
-## Local Validation
+- `README.md`  
+  Human-facing overview in English, including scope and trigger intent.
+
+- `examples.md` / `examples.en.md`  
+  Trigger examples and expected usage patterns.
+
+Optional but recommended for persona and framework skills:
+
+- `persona-card.md`
+- `sources.md`
+
+## Install Into Codex
+
+Install all skills:
+
+```bash
+bash scripts/install-skill.sh all
+```
+
+Install one skill by repository folder name:
+
+```bash
+bash scripts/install-skill.sh ict
+```
+
+Install multiple skills:
+
+```bash
+bash scripts/install-skill.sh ict fengxun senior-interviewer
+```
+
+The installer reads the `name:` field from each `SKILL.md` and copies the file to:
+
+```text
+~/.codex/skills/<frontmatter-name>/SKILL.md
+```
+
+## Local Development
+
+Validate the repository:
 
 ```bash
 npm run validate
 ```
 
-当前校验会检查：
-
-- `skills/` 目录存在
-- 每个 skill 子目录都包含 `SKILL.md`
-
-## Install Into Codex
-
-将单个 skill 复制到 `~/.codex/skills/<skill-name>/SKILL.md` 即可。
-
-例如：
+Install all skills into the local Codex directory:
 
 ```bash
-mkdir -p ~/.codex/skills/ict-perspective
-cp skills/ict/SKILL.md ~/.codex/skills/ict-perspective/SKILL.md
+npm run install:codex
 ```
 
-## Development Notes
+## Design Principles
 
-- 这些 skill 更偏“框架提炼”，不是“冒充真人”
-- 所有人物 skill 都应显式写出 guardrails
-- 对公开资料不足的结论，必须标注为推断
+- Prefer framework extraction over imitation.
+- Keep claims tied to public evidence.
+- Add explicit guardrails for every persona skill.
+- Do not hide uncertainty behind domain jargon.
+- Optimize for reusable judgment, not theatrical roleplay.
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md).
